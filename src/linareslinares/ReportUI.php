@@ -17,5 +17,6 @@ class ReportUI extends PluginBase {
         $this->saveDefaultConfig();
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
         $this->saveResource("config.yml");
+        $this->getServer()->getPluginManager()->registerEvents(new playerEvent($this), $this);
     }
 }
