@@ -11,5 +11,16 @@ use pocketmine\utils\Config;
 
 class reportCommand extends Command {
   
+  public function __construc() {
+    parent::__construc("report", "report system");
+    $this->setPermission("report.command");
+  }
+  
+  public function execute(CommandSender $sender, string $commandLabel, array $args) {
+    
+    if ($sender instanceof Player){
+      
+    }
+  }
   
 }
