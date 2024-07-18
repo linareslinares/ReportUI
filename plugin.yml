@@ -2,7 +2,7 @@ name: ReportUI
 version: 1.0.0
 api: 5.0.0
 main: linareslinares\ReportUI
-author: LinaresFunado
+author: "LinaresFunado @linareslinares"
 description: Complemento de reportes para EternyGames
 
 permissions: 
