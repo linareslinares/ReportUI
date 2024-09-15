@@ -24,7 +24,7 @@ class reportCommand extends Command {
         $sender->sendMessage(TextFormat::YELLOW. "No tienes permisos para usar este comando.");
       }
       
-      $sender->sendMessage(TextFormat::GREEN. "Menu de reportes");
+      $sender->sendMessage(TextFormat::GREEN. "Hacer reportes falsos es sancionable!");
       
     }
     
