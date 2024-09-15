@@ -21,7 +21,7 @@ class reportCommand extends Command {
     if ($sender instanceof Player){
       
       if (!$sender->hasPermission("report.command")){
-        $sender->sendMessage(TextFormat::YELLOW. "No tienes permisos para usar este comando.");
+        $sender->sendMessage(Loader::getInstance()->prefix. TextFormat::RED. "No tienes permisos para usar este comando.");
       }
       
       $sender->sendMessage(TextFormat::GREEN. "Hacer reportes falsos es sancionable!");
